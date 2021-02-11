@@ -1,0 +1,23 @@
+section
+{
+  background-color: #d495bc;
+  height: 330px;
+  width: 40%;
+  padding-top: 10px;
+  padding-left : 10px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 10px 10px 10px black;
+}
+input
+{
+  display:block;
+  height: 20px;
+  border: none;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px
+}
+.envoyer
+{
+  margin-top : 10px;
+}

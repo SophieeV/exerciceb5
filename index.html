@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>formulaire</title>
+</head>
+<body>
+  <div id="main_wrapper">
+    <h1>Formulaire </h1>
+    <section>
+      <form action="/ma-page-de-traitement" method="post">
+        <p>
+          <label for="name">Veuillez saisir votre nom :</label>
+          <input type="text" value="nom" name="user_name" id="name">
+        </p>
+        <p>
+          <label for="mail">Veuillez saisir votre prénom:</label>
+          <input type="text" value="prénom" name="user_name" id="mail">
+        </p>
+        <p>
+          <label for="adress">Veuillez saisir votre adresse:</label>
+          <input type="text" value="adresse" name="user_name" id="adress">
+        </p>
+        <p>
+          <label for="phone">Veuillez saisir votre numéro de téléphone :</label>
+          <input type="chiffre" value="téléphone" name="user_name" id="phone">
+        </p>
+        <p>
+          <label for="password">Veuillez saisir votre mot de passe :</label>
+          <input type="password" value="password" name="user_name" id="password">
+        </p>
+        <p>
+          <input class="envoyer" type="submit" id='submit' value='Envoyer' >
+        </p>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
